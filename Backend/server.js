@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(cors(
   {
-  origin: "http://localhost:5188",
+  origin: "https://todofrontendtask.netlify.app",
   credentials: true , 
 }
 ));
